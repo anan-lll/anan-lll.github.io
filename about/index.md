@@ -10,13 +10,13 @@ head:
 # About
 
 <p class="text-xl">
-  Hey! My name is Recovery. Thank you for checking out my site 😊
+  Hey! My name is anan. Thank you for checking out my site 😊
 </p>
 
 ## About Me
 
 <p class="text-xl">
-I'm a postgraduate graduated from Ocean University of China in 2018. My major is geographic information system. But actually I don't like my major at all. So I choose to be a frontend developer since I was graduated, that is to say. I'm engaged in frontend development for 3 years. My journey covers Vue TypeScript NodeJs and all kinds of fascinating tech.
+I am an undergraduate who graduated from Nanjing University of Posts and Telecommunications in 2018. After graduation, I chose to pursue a career as a Test Development Engineer, and it has been 5 years since then.I am particularly skilled in interface testing, performance testing, and tool development.My journey covers Java python and Various types of testing tools。I am passionate about the profession of testing and development.
 </p>
 
 ## My Open Source Projects
