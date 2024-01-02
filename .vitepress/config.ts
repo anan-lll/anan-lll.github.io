@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  title: 'Recovery',
+  title: "anan's studio",
   scrollOffset: 70,
   head: [['link', { rel: 'icon', href: '/icon.svg' }]],
   description: "Hey 👋 I'm building Vue projects and would like to share my journey with you.",

@@ -6,6 +6,7 @@ disabled: false
 readMins: 8
 tags:
   - Github
+  - Vue
 ---
 
 ## 1 生成秘钥
