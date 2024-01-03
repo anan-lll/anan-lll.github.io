@@ -20,7 +20,7 @@
         <div class="text-center mb-5">
           <icons />
         </div>
-        <p class="mb-3">© 2023 Recovery, All rights reserved.</p>
+        <p class="mb-3">© 2024 anan, All rights reserved.</p>
       </footer>
     </template>
   </Layout>
