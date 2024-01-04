@@ -12,7 +12,7 @@ tags:
 
 ## 背景
 
-当前市场上UI自动化覆盖率最广的莫过于Selenium，而且Selenium上手很快，资料丰富，社区活跃。在发现Playwright之前，观远一直使用Selenium作为web自动化框架。但是我们在编写自动化用例的过程中还是发现了Selenium一些问题：
+当前市场上UI自动化覆盖率最广的莫过于Selenium，而且Selenium上手很快，资料丰富，社区活跃。在发现Playwright之前，我们经常使用Selenium作为web自动化框架。但是我们在编写自动化用例的过程中还是发现了Selenium一些问题：
 
 - 依赖各种不同的driver，随着浏览器的不断更新，也需要不断的去维护这些driver
 - Selenium IDE录屏代码不稳定
@@ -24,27 +24,27 @@ tags:
 ## Playwright和Selenium对比
 
 - 支持语言(都支持主流语言)
-- Playwright：JavaScript & TypeScript\python\C#\Go\Java
-- Selenium：java\python\ruby\C#\C++\JavaScript
+  - Playwright：JavaScript & TypeScript\python\C#\Go\Java
+  - Selenium：java\python\ruby\C#\C++\JavaScript
 - 操作浏览器方式以及性能
-- Playwright：通过开发者工具与浏览器交互，安装简洁，不需要安装各种Driver，启动浏览器速度快
-- Selenium：需要通过各种WebDriver操作不同浏览器，启动浏览器速度慢
+  - Playwright：通过开发者工具与浏览器交互，安装简洁，不需要安装各种Driver，启动浏览器速度快
+  - Selenium：需要通过各种WebDriver操作不同浏览器，启动浏览器速度慢
 - 支持浏览器
-- Playwright：支持所有主流浏览器，Chromium/WebKit/Firefox，不支持IE11
-- Selenium：运行在目前所有主流浏览器上（不包括国内套皮的浏览器）
+  - Playwright：支持所有主流浏览器，Chromium/WebKit/Firefox，不支持IE11
+  - Selenium：运行在目前所有主流浏览器上（不包括国内套皮的浏览器）
 - 快速可靠执行
-- Playwright：自动等待(等待元素出现/等待事件发生)、基于Websocket（双向通讯）可自动获取浏览器实际情况。
-- Selenium：需要代码中加入等待，甚至元素状态轮训判断，增加运行时间、Selenium基于HTTP协议（单向通讯）
+  - Playwright：自动等待(等待元素出现/等待事件发生)、基于Websocket（双向通讯）可自动获取浏览器实际情况。
+  - Selenium：需要代码中加入等待，甚至元素状态轮训判断，增加运行时间、Selenium基于HTTP协议（单向通讯）
 - 代码录屏
-- Playwright：可以使用基于css、xpath、text这些常用的元素定位方式进行录制生成代码，能大幅度的减少写代码的时间，同时代码稳定性也可以保证
-- Selenium：Selenium IDE录制的代码是基于coordinate 或者DOM 层级结构，所以极其不稳定，也就导致IDE基本无人问津
+  - Playwright：可以使用基于css、xpath、text这些常用的元素定位方式进行录制生成代码，能大幅度的减少写代码的时间，同时代码稳定性也可以保证
+  - Selenium：Selenium IDE录制的代码是基于coordinate 或者DOM 层级结构，所以极其不稳定，也就导致IDE基本无人问津
 - 异步方式
-- Playwright支持异步方式
-- Selenium不支持异步方式
+  - Playwright支持异步方式
+  - Selenium不支持异步方式
 - headless模式
-- Playwright和Selenium均支持headless模式，所以在Linux系统或缺少显示设备的场景下也可以跑UI自动化
+  - Playwright和Selenium均支持headless模式，所以在Linux系统或缺少显示设备的场景下也可以跑UI自动化
 - 移动端浏览器
-- Playwright和Selenium均支持移动端浏览器的模拟测试，不支持真机测试
+  - Playwright和Selenium均支持移动端浏览器的模拟测试，不支持真机测试
 
 ## Playwright环境搭建
 
@@ -178,7 +178,7 @@ public class UiAbstract {
 
 ### 常用断言方法
 
-介绍一些常用的UI自动化断言的方法，观远中使用最多的是截图对比断言，详见4.5
+介绍一些常用的UI自动化断言的方法，我使用最多的是截图对比断言，详见4.5
 
 ```js
 String content = page.text_content(":nth-match(i, 2)");

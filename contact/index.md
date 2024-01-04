@@ -11,10 +11,10 @@ Get in touch, let's chat! :)
 
 <a href="mailto:471589168@qq.com">471589168@qq.com</a>
 
-## Socials
+<!-- ## Socials -->
 
-<icons />
+<!-- <icons /> -->
 
-<script setup>
+<!-- <script setup>
 import Icons from '../.vitepress/theme/components/icons.vue';
-</script>
+</script> -->

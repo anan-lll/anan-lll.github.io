@@ -30,7 +30,7 @@
 <script lang="ts" setup>
 import { inject, watch } from 'vue';
 import { useData } from 'vitepress';
-import Icons from './components/icons.vue';
+// import Icons from './components/icons.vue';
 import BackToTop from './components/back-to-top.vue';
 import DefaultTheme from 'vitepress/theme';
 const { Layout } = DefaultTheme;
